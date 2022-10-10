@@ -1,14 +1,13 @@
 cask "sketch@77" do
     version "77,131065"
     sha256 "621e21f128b7ca96a5f9f0e360322bb7c98a41a3b025509231afea364a839a21"
-  
-    url "https://download.sketchapp.com/sketch-#{version.before_comma}-#{version.after_comma}.zip"
+    url "https://download.sketch.com/sketch-#{version.before_comma}-#{version.after_comma}.zip"
     name "Sketch"
     desc "Digital design and prototyping platform"
-    homepage "https://www.sketchapp.com/"
+    homepage "https://www.sketch.com/"
   
     livecheck do
-      url "https://download.sketchapp.com/sketch-versions.xml"
+      url "https://download.sketch.com/sketch-versions.xml"
       strategy :sparkle
     end
   
