@@ -1,4 +1,6 @@
-# Philipdowner Sketch77
+# Homebrew Cask for Sketch v77
+
+Sketch v77 is the last version that I have a paid license for, and it suits my needs perfectly. This tap allows me to install that version directly, rather than the latest version.
 
 ## How do I install these formulae?
 
